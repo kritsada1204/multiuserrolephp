@@ -15,6 +15,40 @@
         <div class="col-sm-12">
             <input type="text" name="txt_email" class="form-control" require placeholder="enter email">
         </div>
+
+        <label for="email" class="col-sm-3 control-label">Email</label>
+        <div class="col-sm-12">
+            <input type="password" name="txt_password" class="form-control" require placeholder="enter password">
+        </div>
+
+        <div class="form-group">
+            <label for="type" class="col-sm-3 control-label">select type</label>
+            <div class="col-sm-12">
+                <select name="txt_role" class="form-control">
+                    <option value="" selected="selected">- Select Role -</option>
+                    <option value="admin">Admin</option>
+                    <option value="employee">Employee</option>
+                    <option value="user">User</option>
+
+                </select>
+            </div>
+        
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-12 mt-5">
+                <input type="submit" name="btn_login" class="btn btn-success" style="width: 100%;" value="Login">
+            </div>
+        </div>
+
+        <div class="form-group text-center">
+            <div class="col-sm-12 mt-3">
+                If you don't have an account register here?<p> <a href="register.php">Register account</a></p>
+            
+            </div>
+        
+        </div>
+
         </form>
     </div>
 
